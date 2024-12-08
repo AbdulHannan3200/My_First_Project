@@ -26,6 +26,22 @@ public class Array1D {
         System.out.println("Maximum value in the array: " + max);
         System.out.println("Minimum value in the array: " + min);
 
+        System.out.print("Enter a number to search in the array :");
+        int key = uInput.nextInt();
+        boolean isFound = false;
+        for (int j : array) {
+            if (key == j) {
+                isFound=true;
+                break;
+            }
+        }
+        if(isFound){
+            System.out.println("Value is found in the array!");
+        }
+        else{
+            System.out.println("Value is not found in the array!");
+        }
+
         // Close the scanner
         uInput.close();
     }
