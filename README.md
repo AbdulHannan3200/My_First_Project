@@ -1,3 +1,6 @@
 # My_First_Project
-My name is AbdulHannan Liaqat . I'm a student of Bs Computer Science.
-I am using this repository for my basic java projects
+<h1>My_First_Project</h1>
+<p>My name is <strong>AbdulHannan Liaqat</strong>.</p>
+<p>I'm a student of <strong>BS Computer Science</strong>.</p>
+<p>I am using this repository for my basic Java projects.</p>
+
